@@ -1071,6 +1071,127 @@ url("https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123
   text-align: center;
 }
 
+footer {
+  border-top: 1px solid #2a2a2a;
+  padding: 4rem 2.5rem 2rem;
+}
+
+.footer-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand p {
+  color: #9aabb8;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-top: 1rem;
+  max-width: 20rem;
+}
+
+.footer-logo {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f5fefd;
+  letter-spacing: 0.05em;
+}
+
+.footer-logo span {
+  color: #3BB2F6;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.footer-social-btn {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.25s, background 0.25s;
+  text-decoration: none;
+}
+
+.footer-social-btn:hover {
+  border-color: #3BB2F6;
+  background: rgba(59, 178, 246, 0.1);
+}
+
+.footer-social-btn svg {
+  width: 1rem;
+  height: 1rem;
+  color: #9aabb8;
+}
+
+.footer-social-btn:hover svg {
+  color: #3BB2F6;
+}
+
+.footer-col h4 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f5fefd;
+  margin-bottom: 1.25rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-col ul li a {
+  color: #9aabb8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.footer-col ul li a:hover {
+  color: #3BB2F6;
+}
+
+.footer-divider {
+  height: 1px;
+  background: #2a2a2a;
+  margin-bottom: 2rem;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: #4a5568;
+}
+
+.footer-bottom p span {
+  color: #3BB2F6;
+}
 
 
 
@@ -1106,5 +1227,23 @@ url("https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123
   }
   .form-row {
     grid-template-columns: 1fr;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-brand {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 480px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+  .footer-brand {
+    grid-column: span 1;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
   }
 }
