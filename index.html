@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Detailing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu" id="menu">
+                <div class="menu-wrapper">
+                    <a href="#">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+
+
+        <div class="logo"><img src="./img/DetailPro logo.png" width="100" height="26" alt="DetailPro Logo"></div>
+
+        
+        <div class="navbar-button">
+            <a href="/services" class="btn"><span>See Offers</span></a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-img"></div>
+        <div class="hero-content">
+            <div class="hero-wrapper">
+                <h1 class="main-header">Premium Car Detailing for <span style="color: #3BB2F6;">Showroom-Level Results</span></h1>
+                <p>Book a full detail, paint correction, or ceramic coating and transform your car in a single visit.</p>
+                <div class="rep-wrap">
+                    <div class="feature-tag"><div><svg viewbox="0 0 20 20"><g transform="translate(-2,-2)"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" width="16" height="16"></path></g></svg>NATIONWIDE COVERAGE</div></div>
+                    <div class="feature-tag"><div><svg viewbox="0 0 20 20"><g transform="translate(-2,-2)"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></g></svg>5+ YEARS EXPERIENCE</div></div>
+                    <div class="feature-tag"><div><svg viewbox="0 0 20 20"><g transform="translate(-2,-2)"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></g></svg>QUALITY GUARANTEED</div></div>
+                    <div class="feature-tag"><div><svg viewbox="0 0 20 20"><g transform="translate(-2,-2)"><path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"></path></g></svg>BELOW MARKET PRICING</div></div>
+                </div>
+                <div class="hero-btn-cnt">
+                    <button class="btn" id="hero-btn-services" onclick="window.location='#services'"><span>Explore Our Services<svg viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></span></button>
+                    <button class="btn" id="hero-btn-contact" onclick="window.location='#contact'"><span>Contact Us<svg id="contact-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#3B92F6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#00000" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></span></button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="bg-gradient"></div>
+    </section>
+    <section id="about">
+        <div class="about-text">
+            <h1 class="main-header">ABOUT <span style="color: #3BB2F6;">DetailPro AUTOSERVICE</span></h1>
+            <h3 class="sub-header">Professional Car Detailing Services You Can Trust</h3>
+            <p>At DetailPro, we specialize in high-quality interior and exterior car detailing designed to restore and protect your vehicle. From deep cleaning and paint correction to ceramic coating, every service is carried out with precision and premium products to deliver lasting, showroom-level results. Whether you drive daily or own a high-end vehicle, we treat every car with the same level of care and attention.</p>
+        </div>
+        <div class="about-features">
+  <div class="feat-item">
+    <div class="feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    </div>
+    <div class="feat-text">
+      <h4>Fully Insured</h4>
+      <p>Your vehicle is covered throughout the entire detailing process.</p>
+    </div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+    </div>
+    <div class="feat-text">
+      <h4>Certified Technicians</h4>
+      <p>Trained professionals with 5+ years of hands-on experience.</p>
+    </div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    </div>
+    <div class="feat-text">
+      <h4>Fast Turnaround</h4>
+      <p>Most details completed same-day so you're back on the road quickly.</p>
+    </div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    </div>
+    <div class="feat-text">
+      <h4>Mobile Service</h4>
+      <p>We come to your home or workplace — no travel required.</p>
+    </div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 0v4m0 12v4M2 12h4m12 0h4"/><circle cx="12" cy="12" r="3"/></svg>
+    </div>
+    <div class="feat-text">
+      <h4>Eco-Friendly Products</h4>
+      <p>Biodegradable, safe-formula solutions that protect your car and the environment.</p>
+    </div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+    </div>
+    <div class="feat-text">
+      <h4>Satisfaction Guaranteed</h4>
+      <p>Not happy? We'll make it right — no questions asked.</p>
+    </div>
+  </div>
+</div>
+    </section>
+    <section id="services">
+  <div class="services-text">
+    <h1 class="main-header">OUR <span style="color: #3BB2F6;">SERVICES</span></h1>
+    <h3 class="sub-header">Comprehensive Car Detailing Solutions for Every Need</h3>
+  </div>
+
+  <div id="services-grid">
+    <div class="container">
+
+      <!-- 3-card top row -->
+      <div class="srv-grid">
+        <div class="srv-card">
+          <img src="https://cdn.prod.website-files.com/64d67808f05734a096ec62b5/64d7f0a74c758e031321971c_shameez-car-detailing-new-orleans-1.jpeg" alt="Interior Detailing">
+          <div class="srv-card-body">
+            <span class="srv-tag">Interior</span>
+            <h3>Interior Deep Clean</h3>
+            <p>Full vacuum, steam clean, leather conditioning, and odor elimination for a fresh cabin every time.</p>
+          </div>
+        </div>
+        <div class="srv-card">
+          <img src="https://premierdetailingandwash.com/wp-content/uploads/2023/03/161985140_m.jpg" alt="Exterior Wash">
+          <div class="srv-card-body">
+            <span class="srv-tag">Exterior</span>
+            <h3>Exterior Detail & Wash</h3>
+            <p>Hand wash, clay bar treatment, wheel cleaning, and tire dressing for a spotless finish.</p>
+          </div>
+        </div>
+        <div class="srv-card">
+          <img src="https://kcdetailing.com/images/easyblog_articles/2/paint-correction-vs-paint-protection.jpg" alt="Paint Correction">
+          <div class="srv-card-body">
+            <span class="srv-tag">Paint</span>
+            <h3>Paint Correction</h3>
+            <p>Machine polishing to remove swirl marks, scratches, and oxidation — restoring a mirror-like gloss.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="srv-banner">
+  <img src="https://www.bestclearbra.com/wp-content/uploads/uploaded-assets/process-of-applying-ceramic-protective-coat-on-body-car-using-sponge-in-detailing-auto-service-car-service-worker-appls-ceramic-coating.jpg" alt="Ceramic Coating">
+  <div class="srv-banner-overlay"></div>
+  <div class="srv-banner-content">
+    <div class="srv-banner-text">
+      <span class="srv-tag">Premium</span>
+      <h3>Ceramic Coating</h3>
+      <p>A nano-ceramic layer bonded to your paint — years of hydrophobic protection, UV resistance, and showroom gloss that wax can't match.</p>
+    </div>
+    <a href="#contact" class="srv-cta">
+      Get a Quote
+      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+<section id="before-after">
+  <div class="ba-head">
+    <h1 class="main-header">BEFORE <span style="color:#3BB2F6">&</span> AFTER</h1>
+    <h3 class="sub-header">See the DetailPro difference for yourself</h3>
+  </div>
+
+  <div class="ba-grid">
+    <div class="ba-card">
+      <div class="ba-slider" data-slider>
+        <img class="ba-after" src="//bogdandetailing.ro/wp-content/uploads/2024/06/Untitled-1-02-scaled-1.jpg" alt="After">
+        <div class="ba-before-wrap">
+          <img class="ba-before" src="//bogdandetailing.ro/wp-content/uploads/2024/06/Untitled-1-01-scaled-1.jpg" alt="Before">
+        </div>
+        <span class="ba-label ba-label-before">BEFORE</span>
+        <span class="ba-label ba-label-after">AFTER</span>
+        <div class="ba-handle">
+          <div class="ba-handle-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="ba-card-label">Interior Deep Clean — <span>Mercedes W211 E-Class</span></div>
+    </div>
+
+    <div class="ba-card">
+      <div class="ba-slider" data-slider>
+        <img class="ba-after" src="https://i0.wp.com/lakestevensautodetailing.com/wp-content/uploads/2024/04/PXL_20240218_000344643-scaled.jpg?resize=1024%2C771&ssl=1" alt="After">
+        <div class="ba-before-wrap">
+          <img class="ba-before" src="https://i0.wp.com/lakestevensautodetailing.com/wp-content/uploads/2024/04/PXL_20240217_171125388-website-1.jpg?resize=768%2C578&ssl=1" alt="Before">
+        </div>
+        <span class="ba-label ba-label-before">BEFORE</span>
+        <span class="ba-label ba-label-after">AFTER</span>
+        <div class="ba-handle">
+          <div class="ba-handle-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="ba-card-label">Exterior Detail — <span>Ford F-150</span></div>
+    </div>
+</section>
+<section id="pricing">
+  <div class="pricing-head">
+    <h1 class="main-header">OUR <span style="color:#3BB2F6">PRICING</span></h1>
+    <h3 class="sub-header">Transparent pricing — no hidden fees, no surprises</h3>
+  </div>
+
+  <div class="pricing-grid">
+
+    <div class="pricing-card">
+      <div class="pricing-card-top">
+        <h3>Essential Detail</h3>
+        <p>A thorough clean for everyday drivers who want their car looking fresh.</p>
+      </div>
+      <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount">79</span>
+        <span class="from">/ starting</span>
+      </div>
+      <div class="pricing-divider"></div>
+      <ul class="pricing-features">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Exterior hand wash</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Wheel & tire clean</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Interior vacuum</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Window clean (interior)</li>
+        <li class="excluded"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Paint decontamination</li>
+        <li class="excluded"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Paint correction</li>
+        <li class="excluded"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Ceramic coating</li>
+      </ul>
+      <a href="#contact" class="pricing-btn outline">Book Now</a>
+    </div>
+
+    <div class="pricing-card featured">
+      <div class="popular-badge">MOST POPULAR</div>
+      <div class="pricing-card-top">
+        <h3>Full Detail</h3>
+        <p>Our most popular package — inside and out, restored to showroom condition.</p>
+      </div>
+      <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount">199</span>
+        <span class="from">/ starting</span>
+      </div>
+      <div class="pricing-divider"></div>
+      <ul class="pricing-features">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Everything in Essential</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Deep interior steam clean</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Leather conditioning</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Paint decontamination</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Odor elimination</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Wax protection</li>
+        <li class="excluded"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Ceramic coating</li>
+      </ul>
+      <a href="#contact" class="pricing-btn primary">Book Now</a>
+    </div>
+
+    <div class="pricing-card">
+      <div class="pricing-card-top">
+        <h3>Ceramic Protection</h3>
+        <p>The ultimate treatment for those who want long-lasting, professional-grade protection.</p>
+      </div>
+      <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount">499</span>
+        <span class="from">/ starting</span>
+      </div>
+      <div class="pricing-divider"></div>
+      <ul class="pricing-features">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Everything in Full Detail</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Paint correction</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Ceramic coating (2 layers)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>UV & hydrophobic protection</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>2-year coating warranty</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Priority booking</li>
+      </ul>
+      <a href="#contact" class="pricing-btn outline">Book Now</a>
+    </div>
+
+  </div>
+  <p class="pricing-note">Prices vary by vehicle size. <span>Contact us</span> for a custom quote.</p>
+</section>
+<section id="contact">
+  <div class="contact-inner">
+
+    <div class="contact-left">
+      <h1 class="main-header" style="text-align:left;">GET IN <span style="color:#3BB2F6">TOUCH</span></h1>
+      <p>Ready to book or have a question? Fill out the form and we'll get back to you within 24 hours. You can also reach us directly by phone or email.</p>
+
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div class="contact-info-text">
+            <span>Phone</span>
+            <a href="tel:+40712345678">+40 712 345 678</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="contact-info-text">
+            <span>Email</span>
+            <a href="mailto:contact@detailpro.ro">contact@detailpro.ro</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="contact-info-text">
+            <span>Working Hours</span>
+            <p>Mon - Sat: 08:00 - 20:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact">
+<p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" name="first-name" placeholder="John">
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" name="last-name" placeholder="Doe">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="john@example.com">
+      </div>
+      <div class="form-group">
+        <label>Phone</label>
+        <input type="tel" name="phone" placeholder="+40 700 000 000">
+      </div>
+      <div class="form-group">
+        <label>Service</label>
+        <select name="service">
+          <option value="" disabled selected>Select a service...</option>
+          <option>Essential Detail — from $79</option>
+          <option>Full Detail — from $199</option>
+          <option>Ceramic Protection — from $499</option>
+          <option>Not sure — I need advice</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea name="message" placeholder="Tell us about your car and what you need..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">
+        Send Message
+        <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+      </button>
+      <p class="form-note">We typically respond within 24 hours.</p>
+    </form>
+
+  </div>
+</section>
+
+    <script src="index.js"></script>
+</body>
+</html>
