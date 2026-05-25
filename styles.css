@@ -308,8 +308,8 @@ url("https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123
 }
 
 #about {
-    padding-block: 5rem;
-    padding-bottom: 3rem;
+    padding-block: 3rem;
+    padding-bottom: 2rem;
 }
 
 #about .sub-header {
@@ -571,7 +571,7 @@ url("https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123
 }
 
 #before-after {
-  padding: 5rem 2.5rem;
+  padding: 3rem 2.5rem;
 }
 
 .ba-grid {
@@ -699,7 +699,7 @@ url("https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123
     padding-bottom: 2rem;
 }
 #pricing {
-  padding: 5rem 2.5rem;
+  padding: 3rem 2.5rem;
 }
 
 .pricing-grid {
@@ -882,7 +882,7 @@ url("https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123
 }
 
 #contact {
-  padding: 5rem 2.5rem;
+  padding: 3rem 2.5rem;
 }
 
 .contact-inner {
@@ -1214,11 +1214,11 @@ footer {
   }
 
   #services-grid {
-    padding: 3rem 2rem 0 2rem;
+    padding: 2rem 2.5rem 0 2.5rem;
   }
 
   .services-text {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   #before-after {
@@ -1234,7 +1234,7 @@ footer {
   }
 
   footer {
-    padding: 3rem 2rem 1.5rem;
+    padding: 2.5rem 2.5rem 1.5rem;
   }
 }
 
@@ -1454,10 +1454,10 @@ footer {
 
   /* Main header smaller on mobile */
   .main-header {
-    font-size: 2rem !important;
-  }
+  font-size: 1.75rem;
+}
 
-  .sub-header {
-    font-size: 1rem !important;
-  }
+.sub-header {
+  font-size: 1rem;
+}
 }
